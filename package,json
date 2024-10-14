@@ -1,0 +1,19 @@
+{
+  "name": "addtocart",
+  "version": "1.0.0",
+  "description": "A simple Express app with MySQL",
+  "main": "addtocart.js",
+  "scripts": {
+    "start": "node addtocart.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.11.0",
+    "body-parser": "1.20.2",
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "license": "ISC"
+}
